@@ -11,7 +11,7 @@ export default async function POST(req, res) {
   }
 
   try {
-    const privateKey = process.env.TABLELAND_PRIVATE_KEY; // Securely set in your environment variables
+    const privateKey = process.env.TABLELAND_PRIVATE_KEY; 
     const wallet = new Wallet(privateKey);
 
     const provider = new ethers.providers.JsonRpcProvider("https://api.calibration.node.glif.io/rpc/v1");
