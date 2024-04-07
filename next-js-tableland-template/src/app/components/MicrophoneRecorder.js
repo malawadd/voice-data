@@ -76,7 +76,7 @@ export  function MicrophoneRecorder({ onSubmit, disabled }) {
     <button
       onClick={recording ? stopRecording : startRecording}
       disabled={disabled}
-      className={`px-4 py-2 border-2 border-black ${recording ? 'bg-red-500' : 'bg-blue-500'} text-white rounded hover:bg-white hover:text-black disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200`}
+      className={`px-4 py-2 border-2 border-black ${recording ? 'bg-red-200' : 'bg-blue-200'} text-black rounded hover:bg-white hover:text-black disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200`}
     >
       {recording ? 'Stop Recording' : 'Start Recording'}
     </button>

@@ -1,6 +1,7 @@
 "use client"
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Image from "next/image";
+import Link from 'next/link';
 import "../globals.css";
 import { useEffect, useState } from 'react';
 import { useSigner } from '@/hooks/useSigner'; // Adjust the import path based on your project structure
@@ -94,6 +95,7 @@ export default function Speak() {
     <>
     <nav className="sticky top-0 flex items-center justify-between flex-wrap bg-lightgreen opacity-100 shadow p-2 mb-8">
         <h1 className="text-2xl font-bold">
+        <Link href="/">
           <Image
             src="/logo.svg"
             alt="Tableland Logo"
@@ -102,6 +104,7 @@ export default function Speak() {
             style={{width:'200px', height: "auto" }}
             priority
           />
+          </Link>
         </h1>
         <div>
           <ConnectButton />

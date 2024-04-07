@@ -120,6 +120,7 @@ export default function Listen() {
           <Image
             src="/logo.svg"
             alt="Tableland Logo"
+            href="/"
             width={0}
             height={0}
             style={{width:'200px', height: "auto" }}

@@ -9,6 +9,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold">
           <Image
             src="/logo.svg"
+            href="/"
             alt="Tableland Logo"
             width={0}
             height={0}
