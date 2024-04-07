@@ -1,5 +1,4 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Tableland } from "@/components/Tableland";
 import Image from "next/image";
 import "./globals.css";
 
@@ -21,8 +20,16 @@ export default function Home() {
           <ConnectButton />
         </div>
       </nav>
-      <main className="flex justify-center flex-wrap">
-        <Tableland />
+      <main className="flex h-screen  h-[calc(100vh-64px)]">
+        {/* Speak Section */}
+        <div className="flex-1 flex justify-center items-center border-r-4 border-black bg-white">
+          <a href="/speak" className="text-6xl font-bold hover:text-8xl transition-all duration-500 ease-in-out">Speak</a>
+        </div>
+
+        {/* Listen Section */}
+        <div className="flex-1 flex justify-center items-center bg-white">
+          <a href="/listen" className="text-6xl font-bold hover:text-8xl transition-all duration-500 ease-in-out">Listen</a>
+        </div>
       </main>
     </>
   );
