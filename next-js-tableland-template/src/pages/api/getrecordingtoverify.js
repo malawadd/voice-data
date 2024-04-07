@@ -38,7 +38,7 @@ export default async function POST(req, res) {
     const selectedRecording = availableRecordingsResults.results[randomIndex];
 
     // Respond with the selected recording
-    res.status(200).json(selectedRecording.ipfshash);
+    res.status(200).json(selectedRecording);
   } catch (error) {
     console.error('Error fetching recording for verification:', error);
     res.status(500).json({ error: 'Failed to fetch a recording for verification.' });

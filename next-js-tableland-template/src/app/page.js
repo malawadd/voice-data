@@ -20,7 +20,7 @@ export default function Home() {
           <ConnectButton />
         </div>
       </nav>
-      <main className="flex h-screen  h-[calc(100vh-64px)]">
+      <main className="flex   h-[calc(90vh-64px)]">
         {/* Speak Section */}
         <div className="flex-1 flex justify-center items-center border-r-4 border-black bg-white">
           <a href="/speak" className="text-6xl font-bold hover:text-8xl transition-all duration-500 ease-in-out">Speak</a>
