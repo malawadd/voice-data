@@ -116,6 +116,9 @@ export default function Listen() {
 
   return (
     <>
+   
+
+ 
     <nav className="sticky top-0 flex items-center justify-between bg-lightgreen opacity-100 shadow p-2 mb-8">
       {/* Flex container for logo and Dataset Page link */}
       <div className="flex items-center">
@@ -143,6 +146,9 @@ export default function Listen() {
           <ConnectButton />
         </div>
       </nav>
+      <div className="fixed top-[68px] left-1/2 transform -translate-x-1/2 z-50 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded" role="alert">
+  <p>NOTICE : I realized my API is overwriting the same audio uploaded, brain is fried. Please fix it here <a href="https://github.com/malawadd/voice-data/blob/317534dd59d97db51e021f87b12097be3ccb6f1a/next-js-tableland-template/src/pages/api/uploadaudio.js#L33" className="underline">GitHub</a>.</p>
+</div>
       <div className="flex flex-col items-center justify-center space-y-4">
       <div className="flex  justify-center items-center h-[calc(50vh-64px)]">
       <div className="p-8 border-2 border-gray-300 shadow-lg rounded-md">

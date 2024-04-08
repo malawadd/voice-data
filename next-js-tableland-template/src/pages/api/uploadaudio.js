@@ -37,9 +37,7 @@ export default async function handler(req, res) {
           res.status(500).json({ error: 'Error parsing the file upload' });
           return;
         }
-        // console.log("this is file",fs.readFilefiles.audio.path)
-        console.log("this is file",files)
-        console.log("this is file",fs.readFile(files.audio[0].filepath))
+        
         try {
           // Read the file from the temporary path
           console.log("this is file",fs.readFile(files.audio[0].filepath))
