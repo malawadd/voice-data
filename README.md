@@ -95,7 +95,7 @@ $ yarn dev
 
 ## Credits
 
-Waslah uses the following open source packages:
+Voices uses the following open source packages:
 
 - [Next.js](https://nextjs.org/) a powerful React framework for building server-rendered and statically generated web applications. It provides features like automatic code splitting, server-side rendering, and optimized routing, making it a go-to choice for creating fast, scalable, and SEO-friendly websites.
 - [tableland SDK ](https://tableland.xyz/)  an open source, permissionless cloud database built on SQLite. Read and write tamperproof data from apps, data pipelines, or EVM smart contracts.
